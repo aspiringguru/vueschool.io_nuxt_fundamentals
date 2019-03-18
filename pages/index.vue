@@ -2,12 +2,8 @@
   <section class="container">
     <div>
       <logo />
-      <h1 class="title">
-        nuxt-fundamentals
-      </h1>
-      <h2 class="subtitle">
-        My mathematical Nuxt.js project
-      </h2>
+      <h1 class="title">nuxt-fundamentals</h1>
+      <h2 class="subtitle">My mathematical Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green"
           >Documentation</a
@@ -18,6 +14,9 @@
           class="button--grey"
           >GitHub</a
         >
+      </div>
+      <div>
+        <img src="https://vueschool.io/img/favicons/apple-touch-icon.png" alt />
       </div>
     </div>
   </section>
@@ -33,7 +32,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
